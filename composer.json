@@ -1,7 +1,11 @@
 {
     "name": "nirol/uploadfile",
+    "keywords": [
+        "sailing",
+        "yii"
+    ],
     "description": "\u0016一个通用文件上传包",
-    "type": "l",
+    "type": "library",
     "require": {
         "php": "^7.3"
     },
