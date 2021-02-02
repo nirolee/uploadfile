@@ -1,28 +1,32 @@
 {
     "name": "nirol/uploadfile",
+    "type": "library",
+    "license": "MIT",
     "keywords": [
         "sailing",
         "yii"
-    ],
+    ],  
     "description": "\u0016一个通用文件上传包",
-    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sailing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SailingTest": "test/"
+        }
+    },
     "require": {
-        "php": "^7.3"
+        "php": ">=7.2"
     },
     "require-dev": {
-        "php": "^7.3"
+        "php": ">=7.2"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "liguoqi",
             "email": "nirolee@foxmail.com"
         }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Sailing\\": "src/"
-        }
-    }
+    ]
 }
